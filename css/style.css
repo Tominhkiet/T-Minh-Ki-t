@@ -1,0 +1,115 @@
+@import url('./flex.css');
+@import url('./typography.css');
+@import url('./font.css');
+@import url('./color.css');
+@import url("./size.css");
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:var(--red-color);
+}
+.sub-container-text{
+color: var(--black-color);
+font-size: var( --font-5);
+font-family : Arial, Helvetica, sans-serif;
+font-weight : var( --font-bold);
+}
+.sub-container-text2{
+    margin-top:50px;
+    font-weight: var(--font-bold);
+    color: var(--white-color);
+    font-size: var(--font-5)
+}
+.container{
+    width:var(--width-13);
+    height:var(--height-5);
+    background-color:var(--grey-color);
+    border-style: solid;
+    border-radius: 20px;
+    border-color:var(--grey-color);
+    margin:30px;
+    display:flex;
+    flex-direction: var(--flex-row);
+}
+.sub-container{
+    width:40%;
+    display:flex;
+    flex-direction:var(--flex-column);
+    flex-wrap:wrap;
+    margin:20px;
+}
+.main-container{
+    display:flex;
+    justify-content: flex-end;
+    padding:20px;
+    margin-left:100px;
+    margin-right:100px;
+
+}
+svg{
+    width:30px;
+    height:20px;
+}
+.sub-container__bottom{
+    margin-top:150px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: var(--font-bold);
+    color: aqua;
+}
+.nav__bar{
+    width:100%;
+    height:50px;
+    background-color:aqua;
+    font-weight: var(--font-bold);
+    font-family: Arial, Helvetica, sans-serif ;
+    display: flex;
+    flex-direction: var(--flex-row);
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    color:var(--red-color);
+}
+       
+.container__account{
+    height:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+.login{
+    color:chartreuse;
+    font-size: var(--font-4);
+
+}
+.logout{
+    color:aqua;
+    font-size: var(--font-4);
+}
+.container__log{
+
+    display:flex;
+    flex-direction: column;
+}
+.container__account:hover{
+    cursor:pointer;
+    transition: 1000ms ease-in-out;
+    background-color: black;
+    border-style: solid ;
+    border-radius: 5px;
+    border-color: red;
+
+}
+.icon1{
+    width:20px;
+    height:15px;
+}
+html{
+    background-color: chartreuse;
+}
