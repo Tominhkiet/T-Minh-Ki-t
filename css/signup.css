@@ -8,18 +8,7 @@
     padding:0;
     box-sizing: border-box;
 }
-.nav__bar{
-    width:100%;
-    height:50px;
-    background-color:transparent;
-    font-weight: var(--font-bold);
-    font-family: Arial, Helvetica, sans-serif ;
-    display: flex;
-    flex-direction: var(--flex-row);
-    justify-content: space-around;
-    align-items: center;
-    color:red;
-}
+
 .container__account{
     height:70px;
     display: flex;
@@ -102,9 +91,9 @@ button{
 .facebook__btn{
     background-color:#21afde;
 }
-a{
+button a{
     text-decoration: none;
-    color:darkturquoise;
+    color:#fff;
 }
 hr{
     margin-top: 20px;
@@ -118,4 +107,34 @@ hr{
 img{
     width:70px;
     margin-top:-50px;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+.nav-bar {
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-bar li {
+	display: inline-block;
+}
+.nav-bar li a {
+	color: var(--red-color);
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:'Poppins',sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.nav-bar li a:hover {
+	transition: 500ms ease-in-out;
+	background: #fff;
+	color: #333;
+}
+.main__nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
