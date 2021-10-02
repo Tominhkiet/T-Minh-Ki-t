@@ -8,89 +8,6 @@
     padding:0;
     box-sizing: border-box;
 }
-form{
-    box-sizing: border-box;
-    width: 260px;
-    padding-bottom: 40px;
-    border-radius: 3px;
-}
-.text{
-    font-size: var(--font-5);
-    font-weight:var(--font-bold);
-    padding-top:30px;
-    color:var(--red-color);
-}
-.container__signup{
-    display:flex;
-    justify-content: center;
-}
-h1{
-    margin-left:640px;
-}
-button{
-    border: none;
-    background: #00ff00;
-    cursor: pointer;
-    border-radius: 3px;
-    padding: 6px;
-    width: 150px;
-    color: black;
-    margin-top:50px;
-    font-weight: bold;
-}
-.container__button{
-    display:flex;
-    flex-direction: row;
-}
-input {
-    width: 260px;
-    border: none;
-    padding: 10px 0;
-    border-bottom: solid 1px #000000;
-    background: linear-gradient(
-      to bottom,
-      rgb(238, 51, 4) 96%,
-      #0b0892 4%
-    );
-    background-position: -200px 0;
-    background-size: 200px 100%;
-    background-repeat: no-repeat;
-    color: #ffffff;
-  }
-  button:hover{
-      background-color: aqua;
-      color:rgb(238, 51, 4);
-      transition: 1000ms ease-in-out;
-      border-style: solid;
-      border-color: blue;
-      font-weight: bold;
-  }
-  .Container__login__text:hover{
-    background-color: aqua;
-    color:rgb(238, 51, 4);
-    transition: 1000ms ease-in-out;
-    border-style: solid;
-    border-color: blue;
-    font-weight: bold;
-  }
-.Container__login__text{
-    border: none; 
-    background: #00ff00;
-    cursor: pointer;
-    border-radius: 3px;
-    padding: 6px;
-    width: 150px;
-    color: black;
-    margin-top:50px;
-    font-size: 14px;
-    font-weight:bold;
-}
-a{
-    text-decoration: none;
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-}
 .nav__bar{
     width:100%;
     height:50px;
@@ -111,12 +28,12 @@ p{
     margin-top: 30px;
 }
 .login{
-    color:var(--black-color);
+    color:transparent;
     font-size: var(--font-4);
 
 }
 .logout{
-    color:aqua;
+    color:transparent;
     font-size: var(--font-4);
 }
 .container__log{
@@ -124,24 +41,81 @@ p{
     display:flex;
     flex-direction: column;
 }
-.container__account:hover{
+.container__log :hover{
     cursor:pointer;
     transition: 1000ms ease-in-out;
-    background-color: rgb(223, 165, 8);
+    background-color: rgb(0, 0, 0);
     border-style: solid ;
     border-radius: 5px;
-    border-color: red;
+    color:red;
 
 }
 .icon1{
     width:20px;
     height:15px;
 }
-a{
+.nav{
     text-decoration: none;
     color:var(--red-color);
 }
-html{
-    background-color: var(--black-color);
+body{
+    margin:0;
+    padding:0;
+    background-image: url(../img/background12.jpg);
+    background-position:center;
+}
+.signup__form{
+    width:300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background:#fff;
+    padding: 20px;
+    margin:8% auto 0;
+    text-align: center;
 }
 
+.signup__form h1{
+    color: #1c8adb;
+    margin-bottom:30px;
+}
+.input__box{
+    border-radius: 20px;
+    padding:10px;
+    margin:10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color:#fff;
+    width:100%;
+    padding:10px;
+    border-radius:20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline:none;
+    cursor:pointer;
+}
+.signup__btn{
+ background-color: #1c8adb;
+}
+.facebook__btn{
+    background-color:#21afde;
+}
+a{
+    text-decoration: none;
+    color:darkturquoise;
+}
+hr{
+    margin-top: 20px;
+    width:100%;
+}
+.or{
+    background: #fff;
+    width:30px;
+    margin: -19px auto 10px;
+}
+img{
+    width:70px;
+    margin-top:-50px;
+}
