@@ -11,7 +11,7 @@
 .nav__bar{
     width:100%;
     height:50px;
-    background-color:rgb(255, 255, 255);
+    background-color:transparent;
     font-weight: var(--font-bold);
     font-family: Arial, Helvetica, sans-serif ;
     display: flex;
@@ -28,12 +28,12 @@
     margin-top: 30px;
 }
 .login{
-    color:rgb(0, 0, 66);
+    color:transparent;
     font-size: var(--font-4);
 
 }
 .logout{
-    color:rgb(255, 255, 255);
+    color:transparent;
     font-size: var(--font-4);
 }
 .container__log{
@@ -41,13 +41,13 @@
     display:flex;
     flex-direction: column;
 }
-.container__account:hover{
+.container__log :hover{
     cursor:pointer;
     transition: 1000ms ease-in-out;
-    background-color: rgb(255, 0, 0);
     border-style: solid ;
     border-radius: 5px;
-    border-color: red;
+    background-color: var(--black-color);
+    color:red;
 
 }
 .icon1{
