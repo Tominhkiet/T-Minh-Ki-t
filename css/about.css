@@ -36,7 +36,7 @@
 }
 button{
     border: none;
-    background: #00ff00;
+    background: #ff0000;
     cursor: pointer;
     border-radius: 3px;
     padding: 6px;
@@ -48,9 +48,9 @@ button{
     margin-left: 550px;
 }
 button:hover{
-    background-color: aqua;
-    color:rgb(238, 51, 4);
-    transition: 1000ms ease-in-out;
+    background-color: #fff;
+    color:rgb(0, 0, 0);
+    transition: 500ms ease-in-out;
     border:none;
     font-weight: bold;
 }
@@ -79,7 +79,7 @@ button:hover{
 	display: inline-block;
 }
 .nav-bar li a {
-	color: rgb(255, 0, 0);
+	color: #fff;
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family:'Poppins',sans-serif;
@@ -99,4 +99,7 @@ button:hover{
 body{
     background-image: url(../img/background16.jpg);
     background-position: center;
+}
+a{
+    text-decoration: none;
 }

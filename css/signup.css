@@ -110,7 +110,7 @@ img{
 }
 a{
     text-decoration: none;
-    color:red;
+    color:rgb(255, 0, 0);
 }
 .nav-bar {
 	float: right;
@@ -121,7 +121,7 @@ a{
 	display: inline-block;
 }
 .nav-bar li a {
-	color: var(--red-color);
+	color: var(--white-color);
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family:'Poppins',sans-serif;

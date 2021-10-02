@@ -88,7 +88,7 @@ color: var(--black-color);
 	display: inline-block;
 }
 .nav-bar li a {
-	color: var(--red-color);
+	color: var(--white-color);
 	text-decoration: none;
 	padding: 5px 20px;
 	font-family:'Poppins',sans-serif;
