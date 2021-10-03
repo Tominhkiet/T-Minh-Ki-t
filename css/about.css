@@ -22,46 +22,34 @@
     width:100%;
     height:100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
+    flex-direction: column;
 }
 .information__text{
     color:var(--white-color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--font-6)
 }
-button {
+button{
     width:100px;
     height: 50px;
     border: 1px solid #fff;
     background: transparent;
     font-family: 'Poppins',sans-serif;
-    color:#fff;
     outline: none;
+    color:#fff;
     cursor:pointer;
+    margin-top: 100px;
+    margin-left: 600px;
 }
-button:hover {
-    transition: 500ms;
-    background-color: #fff;
-    color: #000;
+button a{
+    text-decoration: none;
+    color:#fff;
 }
-
-.container
-{
-    position: relative;
+button:hover{
+    transition: 500ms ease-in-out;
+    background-color: rgb(51, 6, 124);
+    font-weight: var(--font-bold);
 }
-
-.container span
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-}
-
 .nav-bar {
 	float: right;
 	list-style: none;
@@ -91,9 +79,5 @@ button:hover {
 body{
     background-image: url(../img/background16.jpg);
     background-position: center;
-}
-a{
-    color:#fff;
-    text-decoration: none;
 }
 
