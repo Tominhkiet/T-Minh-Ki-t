@@ -29,27 +29,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--font-6)
 }
-button{
-    width:100px;
-    height: 50px;
-    border: 1px solid #fff;
-    background: transparent;
-    font-family: 'Poppins',sans-serif;
-    outline: none;
-    color:#fff;
-    cursor:pointer;
-    margin-top: 100px;
-    margin-left: 600px;
-}
-button a{
-    text-decoration: none;
-    color:#fff;
-}
-button:hover{
-    transition: 500ms ease-in-out;
-    background-color: rgb(51, 6, 124);
-    font-weight: var(--font-bold);
-}
 .nav-bar {
 	float: right;
 	margin-top: 30px;
@@ -111,4 +90,16 @@ img{
 .bottom__info{
 	display: flex;
 	flex-direction: row;	
+}
+iframe{
+    margin-top: 10px;
+    width:50%;
+    height:80%;
+}
+.video{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
