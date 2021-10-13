@@ -52,7 +52,6 @@ button:hover{
 }
 .nav-bar {
 	float: right;
-	list-style: none;
 	margin-top: 30px;
 }
 .nav-bar li {
@@ -80,4 +79,36 @@ body{
     background-image: url(../img/background16.jpg);
     background-position: center;
 }
-
+.bottom__info{
+	background: var(--grey-color);
+	width:100%;
+	height:130px;
+	display: flex;
+	flex-direction: row;
+	margin-top:600px;
+	justify-content: center;
+	align-items: center;
+}
+.image{
+	margin-right:20px;
+}
+img{
+	border:solid  none;
+	border-radius: 50px;
+	margin-left: 20px;
+}
+.info{
+	font-size: large;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content:center;
+}
+.contact{
+	font-weight: var(--font-bold);
+	font-size: larger;
+}
+.bottom__info{
+	display: flex;
+	flex-direction: row;	
+}
